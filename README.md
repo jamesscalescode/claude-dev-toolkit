@@ -50,7 +50,7 @@ Type the command directly for explicit control:
 The easiest way to install is using Claude Code's plugin system:
 
 ```bash
-/plugin install james-toolkit@github:YOUR-USERNAME/james-toolkit
+/plugin install james-toolkit@github:jamesscalescode/james-toolkit
 ```
 
 That's it! The plugin is now installed globally. All Skills and Commands are immediately available.
@@ -64,7 +64,7 @@ That's it! The plugin is now installed globally. All Skills and Commands are imm
 
 #### For Individual Use (Global)
 ```bash
-git clone https://github.com/YOUR-USERNAME/james-toolkit.git
+git clone https://github.com/jamesscalescode/james-toolkit.git
 cp -r james-toolkit/skills/james-toolkit ~/.claude/skills/
 cp james-toolkit/commands/* ~/.claude/commands/
 rm -rf james-toolkit
@@ -72,7 +72,7 @@ rm -rf james-toolkit
 
 #### For Team Projects (Per-Project)
 ```bash
-git clone https://github.com/YOUR-USERNAME/james-toolkit.git temp
+git clone https://github.com/jamesscalescode/james-toolkit.git temp
 mkdir -p .claude
 cp -r temp/skills .claude/
 cp -r temp/commands .claude/
@@ -118,7 +118,7 @@ Provide guidance on using the pipe in templates.
 2. Make your changes to skills/ or commands/
 3. Update version in `.claude-plugin/plugin.json`
 4. Push to your fork
-5. Users can install with: `/plugin install your-fork@github:YOUR-USERNAME/james-toolkit`
+5. Users can install with: `/plugin install your-fork@github:YOUR-GITHUB-USERNAME/james-toolkit`
 
 ## Contributing
 
