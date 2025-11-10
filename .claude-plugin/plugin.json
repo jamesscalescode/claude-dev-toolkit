@@ -1,0 +1,29 @@
+{
+  "name": "james-toolkit",
+  "version": "1.0.0",
+  "description": "Angular development toolkit with Skills and Commands for scaffolding Angular apps, components, services, and modules",
+  "author": "James Scales",
+  "homepage": "https://github.com/YOUR-USERNAME/james-toolkit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR-USERNAME/james-toolkit.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "scaffolding",
+    "development",
+    "automation",
+    "cli"
+  ],
+  "components": {
+    "commands": true,
+    "skills": true,
+    "agents": false,
+    "hooks": false
+  },
+  "requirements": {
+    "angular-cli": "Install globally: npm install -g @angular/cli",
+    "node": "v18 or higher recommended"
+  }
+}
