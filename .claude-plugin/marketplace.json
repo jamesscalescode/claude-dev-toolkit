@@ -1,27 +1,34 @@
 {
-  "name": "claude-dev-toolkit",
-  "version": "1.0.0",
+  "name": "angular-dev-toolkit",
+  "owner": "jamesscalescode",
   "description": "A collection of commands to streamline Angular development, including automated unit test generation following TDD best practices.",
-  "author": "jamesscalescode",
-  "homepage": "https://github.com/jamesscalescode/claude-dev-toolkit",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jamesscalescode/claude-dev-toolkit.git"
-  },
-  "commands": [
+  "plugins": [
     {
-      "name": "generate-test",
-      "description": "Generate Angular component unit tests with proper mocking and TDD structure"
+      "name": "angular-dev-toolkit",
+      "version": "1.0.0",
+      "description": "Generate Angular component unit tests with proper mocking and TDD structure",
+      "author": "jamesscalescode",
+      "homepage": "https://github.com/jamesscalescode/claude-dev-toolkit",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/jamesscalescode/claude-dev-toolkit.git"
+      },
+      "commands": [
+        {
+          "name": "generate-test",
+          "description": "Generate Angular component unit tests with proper mocking and TDD structure"
+        }
+      ],
+      "keywords": [
+        "angular",
+        "testing",
+        "unit-test",
+        "jasmine",
+        "tdd",
+        "test-generation",
+        "development-tools"
+      ],
+      "license": "MIT"
     }
-  ],
-  "keywords": [
-    "angular",
-    "testing",
-    "unit-test",
-    "jasmine",
-    "tdd",
-    "test-generation",
-    "development-tools"
-  ],
-  "license": "MIT"
+  ]
 }
