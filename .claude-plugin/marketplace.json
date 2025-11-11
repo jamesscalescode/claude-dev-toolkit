@@ -1,5 +1,5 @@
 {
-  "name": "Angular Development Toolkit",
+  "name": "claude-dev-toolkit",
   "version": "1.0.0",
   "description": "A collection of commands to streamline Angular development, including automated unit test generation following TDD best practices.",
   "author": "jamesscalescode",
