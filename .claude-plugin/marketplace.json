@@ -1,31 +1,31 @@
 {
-  "name": "angular-dev-toolkit",
-  "owner": "jamesscalescode",
-  "description": "A collection of commands to streamline Angular development, including automated unit test generation following TDD best practices.",
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-dev-toolkit",
+  "version": "1.0.0",
+  "description": "Toolkit for Claude Code - includes Skills and Slash Commands for Angular development and automation",
+  "owner": {
+    "name": "James Scales",
+    "email": "jamesscalescode@users.noreply.github.com"
+  },
   "plugins": [
     {
-      "name": "angular-dev-toolkit",
+      "name": "claude-dev-toolkit",
       "version": "1.0.0",
-      "description": "Generate Angular component unit tests with proper mocking and TDD structure",
-      "author": "jamesscalescode",
-      "homepage": "https://github.com/jamesscalescode/claude-dev-toolkit",
-      "repository": {
-        "type": "git",
-        "url": "https://github.com/jamesscalescode/claude-dev-toolkit.git"
+      "description": "Angular development toolkit with Skills and Commands for scaffolding Angular apps, components, services, and modules",
+      "author": {
+        "name": "James Scales"
       },
-      "commands": [
-        {
-          "name": "generate-test",
-          "description": "Generate Angular component unit tests with proper mocking and TDD structure"
-        }
-      ],
+      "homepage": "https://github.com/jamesscalescode/claude-dev-toolkit",
+      "repository": "https://github.com/jamesscalescode/claude-dev-toolkit",
+      "source": "./",
+      "category": "development",
       "keywords": [
         "angular",
         "testing",
         "unit-test",
         "jasmine",
         "tdd",
-        "test-generation",
+        "scaffolding",
         "development-tools"
       ],
       "license": "MIT"
