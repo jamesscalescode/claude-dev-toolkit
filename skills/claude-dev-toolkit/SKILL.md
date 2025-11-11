@@ -1,9 +1,9 @@
 ---
-name: james-toolkit
+name: claude-dev-toolkit
 description: Use this skill when the user wants to create Angular applications, generate Angular components/services/modules, or automate Angular development workflows. Handles scaffolding complete Angular apps with routing and guards, generating individual Angular artifacts, setting up project structure, and initializing git repositories with Angular best practices.
 ---
 
-# James's Angular Development Toolkit
+# Claude Dev Toolkit - Angular Development
 
 This skill provides automated workflows for Angular development tasks.
 

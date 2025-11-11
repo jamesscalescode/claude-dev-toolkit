@@ -1,12 +1,12 @@
 {
-  "name": "james-toolkit",
+  "name": "claude-dev-toolkit",
   "version": "1.0.0",
   "description": "Angular development toolkit with Skills and Commands for scaffolding Angular apps, components, services, and modules",
   "author": "James Scales",
-  "homepage": "https://github.com/jamesscalescode/james-toolkit",
+  "homepage": "https://github.com/jamesscalescode/claude-dev-toolkit",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jamesscalescode/james-toolkit.git"
+    "url": "https://github.com/jamesscalescode/claude-dev-toolkit.git"
   },
   "license": "MIT",
   "keywords": [

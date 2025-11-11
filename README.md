@@ -1,4 +1,4 @@
-# James Toolkit - Angular Development Plugin for Claude Code
+# Claude Dev Toolkit - Angular Development Plugin for Claude Code
 
 A comprehensive Angular development toolkit for Claude Code that includes both **automatic Skills** and **manual Slash Commands** to scaffold and automate Angular projects.
 
@@ -50,41 +50,41 @@ Type the command directly for explicit control:
 The easiest way to install is using Claude Code's plugin system:
 
 ```bash
-/plugin install james-toolkit@github:jamesscalescode/james-toolkit
+/plugin install claude-dev-toolkit@github:jamesscalescode/claude-dev-toolkit
 ```
 
 That's it! The plugin is now installed globally. All Skills and Commands are immediately available.
 
 **Manage your installation:**
 - `/plugin` - Open plugin manager to enable/disable
-- `/plugin uninstall james-toolkit` - Remove the plugin
+- `/plugin uninstall claude-dev-toolkit` - Remove the plugin
 - Type `/help` to see all available commands
 
 ### Alternative: Manual Installation
 
 #### For Individual Use (Global)
 ```bash
-git clone https://github.com/jamesscalescode/james-toolkit.git
-cp -r james-toolkit/skills/james-toolkit ~/.claude/skills/
-cp james-toolkit/commands/* ~/.claude/commands/
-rm -rf james-toolkit
+git clone https://github.com/jamesscalescode/claude-dev-toolkit.git
+cp -r claude-dev-toolkit/skills/claude-dev-toolkit ~/.claude/skills/
+cp claude-dev-toolkit/commands/* ~/.claude/commands/
+rm -rf claude-dev-toolkit
 ```
 
 #### For Team Projects (Per-Project)
 ```bash
-git clone https://github.com/jamesscalescode/james-toolkit.git temp
+git clone https://github.com/jamesscalescode/claude-dev-toolkit.git temp
 mkdir -p .claude
 cp -r temp/skills .claude/
 cp -r temp/commands .claude/
 rm -rf temp
 git add .claude
-git commit -m "Add james-toolkit for Angular development"
+git commit -m "Add claude-dev-toolkit for Angular development"
 ```
 
 ## Customizing the Toolkit
 
 ### Adding Custom Skills
-Edit `skills/james-toolkit/SKILL.md`:
+Edit `skills/claude-dev-toolkit/SKILL.md`:
 
 1. Add new capabilities in the **Capabilities** section
 2. Provide bash commands or instructions for Claude to follow
@@ -118,14 +118,14 @@ Provide guidance on using the pipe in templates.
 2. Make your changes to skills/ or commands/
 3. Update version in `.claude-plugin/plugin.json`
 4. Push to your fork
-5. Users can install with: `/plugin install your-fork@github:YOUR-GITHUB-USERNAME/james-toolkit`
+5. Users can install with: `/plugin install your-fork@github:YOUR-GITHUB-USERNAME/claude-dev-toolkit`
 
 ## Contributing
 
 Have ideas for new Angular workflows or commands?
 
 1. Fork this repository
-2. Add your workflow to `skills/james-toolkit/SKILL.md` or create a new command in `commands/`
+2. Add your workflow to `skills/claude-dev-toolkit/SKILL.md` or create a new command in `commands/`
 3. Test it with Claude Code
 4. Update version in `.claude-plugin/plugin.json` following [semantic versioning](https://semver.org/)
 5. Submit a pull request with description of changes

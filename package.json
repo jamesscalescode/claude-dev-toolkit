@@ -1,7 +1,7 @@
 {
-  "name": "james-toolkit",
+  "name": "claude-dev-toolkit",
   "version": "1.0.0",
-  "description": "Angular development toolkit for Claude Code - includes Skills and Slash Commands for scaffolding Angular apps, components, services, and modules",
+  "description": "Toolkit for Claude Code - includes Skills and Slash Commands",
   "keywords": [
     "claude-code",
     "claude-skills",
@@ -15,9 +15,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jamesscalescode/james-toolkit.git"
+    "url": "https://github.com/jamesscalescode/claude-dev-toolkit.git"
   },
   "bugs": {
-    "url": "https://github.com/jamesscalescode/james-toolkit/issues"
+    "url": "https://github.com/jamesscalescode/claude-dev-toolkit/issues"
   }
 }
